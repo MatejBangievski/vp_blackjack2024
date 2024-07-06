@@ -13,12 +13,14 @@ namespace Blackjack
         public string username {  get; set; }
         public int balance { get; set; }
         public Image profilepic { get; set; }
+        public PaymentCard paymentCard { get; set; }
 
-        public Player(string username, int balance, Image image)
+        public Player(string username, int balance, Image image, PaymentCard paymentCard)
         {
             this.username = username;
             this.balance = balance;
             this.profilepic = image;
+            this.paymentCard = paymentCard;
         }
 
         public void IncreaseBalacne (int win)

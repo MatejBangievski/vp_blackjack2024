@@ -17,7 +17,6 @@ namespace Blackjack
         public Chip(int price, Color color, Point center)
         {
             Price = price;
-            //Moze samo na price da se menja boja pr pod 50 = zelena, pod 100 = crvena...
             Color = color;
             Center = center;
         }
